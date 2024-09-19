@@ -1,19 +1,9 @@
-const accountId =17228
-let accountEmail = "sanjayjhuriya8@google.com"
-var accountPassword = 14234
-accountCity ="jaipur"
-let accountstate;
+const accountId = 38696
+let accountEmail = "sanjay@gmail.com"
+var accountCity = "jaipur"
+accountCity = "sanjay"
+/*perfer not to use var
+because of issue in block scope and funetional scope {karli} var all velues change */
 
-
-accountEmail = "esgf@hc.com"
-accountPassword = 7867
-accountCity = "jaipr"
-
-
-console.log(accountId);
-
-console.table([accountId, accountEmail, accountPassword, accountCity, accountstate])
-/*
-prefer not to use var
-
-*/
+accountEmail = "sanjay@gamil.com"
+console.table([accountCity, accountEmail, accountId,]);
